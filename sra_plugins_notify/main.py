@@ -27,7 +27,7 @@ def get_message(*arg):
 log.add(get_message, level=level,format="{message}")
 
 @hookimpl
-def add_option(SRA, option_dict):
+def add_option(SRA):
     global start_time
     start_time = time()
 
